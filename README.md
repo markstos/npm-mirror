@@ -21,11 +21,11 @@ DEBUG=* npm-mirror \
   --hostname http://secret-npm-mirror.com \
   --root /absolute/path/to/download/packages/
 
-// Start webserver rooted in packages directory
-// For example...
+# Start webserver rooted in packages directory
+# For example...
 npm-server --port 80 --path /absolute/path/to/download/packages/
 
-// Give it a whirl
+# Give it a whirl
 cd /path/to/target
 npm install --registry http://secret-npm-mirror.com
 ```
